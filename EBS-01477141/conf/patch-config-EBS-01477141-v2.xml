@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<patch-config xmlns="urn:jboss:patch-config:1.0">
+   <name>EBS-01477141-v2</name>
+   <description>(6.4.5 patch) Fixes redhat support case 01477141: JSF 2.1 API is missing three methods</description>
+   <one-off name="EAP" applies-to-version="6.4.5.GA" />
+   <element patch-id="Update-JSF-EBS-01477141-v2">
+      <one-off name="base"/>
+      <description>JSF-API upgrade</description>
+      <specified-content>
+         <modules>
+            <updated name="javax.faces.api" />
+         </modules>
+      </specified-content>
+   </element>
+</patch-config>
