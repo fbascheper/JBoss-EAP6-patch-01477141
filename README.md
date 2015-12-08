@@ -2,10 +2,9 @@
 Patch for JBoss EAP issue 01477141 - JSF 2.1 API is missing 3 methods in ExternalContextWrapper
 
 ## Usage
+Note: the patch generation tool (patch-gen-1.0.0.Alpha1-SNAPSHOT-shaded.jar), can be built from the code at
+ [https://github.com/fbascheper/patch-gen].
 
-Options are not optional and must exactly follow this format: `--optionname=value`. The `=` must be present when there is a value. There are no short forms for the option names.
-
-In the following sections, substitute `patch-gen` for `java -jar patch-gen-*-shaded.jar`, or set up an alias with
 
 
 ### Step 1. Setup directories
